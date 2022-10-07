@@ -1,0 +1,73 @@
+ul{
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.nav-link,
+.navbar-brand {
+    color:  #396df2;
+}
+
+.nav-link {
+    margin-right: 1em !important;
+}
+
+.nav-link:hover {
+    color: #000;
+}
+
+.navbar-collapse {
+    justify-content: flex-end;
+}
+
+
+
+/* HEADLINE SECTION */
+
+.headline {
+    background-image: url("./images/Header\ bg.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* WORKS SECTION */
+
+.container {
+    margin: 5%;
+}
+
+/* CONTACT SECTION */
+.contact-section{
+    background-image: url(./images/contact\ form\ shapes-mobile.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #396df2;
+    margin-top: 50px;
+}
+.form-group{
+  width: 80%;
+  margin-left: 1%;
+}
+
+@media  ( max-width: 700px){
+    .header-container{
+        background-image: url(./images/contact\ form\ shapes-mobile.svg);
+        height: 100wh;
+        width: 100vw;
+        margin-top: 128px;
+        margin-bottom: 126px;
+
+    }
+    
+    .socials {
+        display: flex;
+        gap:20px;
+    }
+
+    .works-content {
+        margin-bottom:88px;
+    }
+}
